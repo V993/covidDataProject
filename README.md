@@ -1,1 +1,3 @@
 # covidDataProject
+
+## Graphical expression of coronavirus statistics using COVID API (implementation-resources), with integrated and updated data worldwide in standard graphic format (graphs, metrics) based on client queries, as well as a main map which computes most-recent COVID cases into "hot zones," and regions where COVID is most-concentrated. The intended clientele are individuals hoping to learn more about COVID (will have an educational component and link to charities, research, and funding for organizations against COVID), as well as people who need to find resources for COVID (with locations of testing centers, places to get food, and other social services integrated on the map).
