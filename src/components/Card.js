@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ImgMediaCard() {
+export default function ImgMediaCard(props) {
   const classes = useStyles();
 
   return (
@@ -22,17 +22,21 @@ export default function ImgMediaCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
+          alt={props.charityName}
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={props.charityImg}
+          title={props.charityName}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Alight
+            <div>
+              {props.charityName}
+            </div>
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff.
+            <div>
+              {props.description}
+            </div>
           </Typography>
         </CardContent>
       </CardActionArea>

@@ -4,7 +4,8 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
-import Card from './Card'
+import Card from './Card';
+//import images from './images'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -81,25 +82,25 @@ function Main(props) {
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
-            <Card/>
+            <Card charityName = "Alight" charityImg = "/" url = "/" description = "Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff."/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
-            <Card/>
+            <Card charityName = "CDC Foundation" charityImg = "/" url = "/" description = "The CDC Foundation works in close collaboration with the United States Centers for Disease Control and Prevention to rapidly deploy private and philanthropic funds where they are needed most during emergency outbreaks."/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
-            <Card/>
+          <Card charityName = "The CDP" charityImg = "/" url = "/" description = "The Center for Disaster Philanthropy (CDP) is a full-time resource to help donors make more thoughtful disaster-related decisions and focus on nonprofit organizations working in areas with high numbers of vulnerable populations to maximize the positive impact."/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
-            <Card/>
+          <Card charityName = "The CEPI" charityImg = "/" url = "/" description = "Coalition for Epidemic Preparedness Innovations (CEPI) works to stimulate and accelerate the development of vaccines against emerging infectious diseases and enable access to these vaccines for people. Its latest funding call aims to develop a proven vaccine against COVID-19."/>
           </Paper>
         </Grid>
         {/* Footer */}
