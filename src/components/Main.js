@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
+import Card from './Card'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -56,8 +57,8 @@ function Main(props) {
         </Grid>
         {/* Grid With Text Cards or Paper */}
         <Grid item xs={12}>
-          <Paper className={classes.mpaper}>
-            What is contact tracing?
+          <Paper>
+            <h>What is contact tracing?</h>
             <p/>Contact tracing is a study carried out to study patterns and locations of events in order to track down the source. With the current Covid-19 situation, it appears as though there will be a mass increase in positive cases and deaths. Social distancing has worked quite well for sometime, however, do we always know where it is safe and where it isn't?
             <p/> The sad reality is that we don't, not unless we carry out this project.
             Please help us decrease the spread of the virus and keeping yourself and others safe by donating to the charities bellow.
@@ -79,26 +80,26 @@ function Main(props) {
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
-            Mini Cards
+          <Paper className={classes.spaper}>
+            <Card/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
-            Mini Cards
+          <Paper className={classes.spaper}>
+            <Card/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
-            Mini Cards
+          <Paper className={classes.spaper}>
+            <Card/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
-            Mini Cards
+          <Paper className={classes.spaper}>
+            <Card/>
           </Paper>
         </Grid>
         {/* Footer */}
