@@ -49,7 +49,6 @@ function Main(props) {
           style={{ backgroundImage: 'url(https://source.unsplash.com/user/erondu/1600x900)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'}}>
-            Large space
             <Button variant="contained" color="primary">
               Test Jake
             </Button>
@@ -58,7 +57,12 @@ function Main(props) {
         {/* Grid With Text Cards or Paper */}
         <Grid item xs={12}>
           <Paper className={classes.mpaper}>
-            Large Space Text
+            What is contact tracing?
+            <p/>Contact tracing is a study carried out to study patterns and locations of events in order to track down the source. With the current Covid-19 situation, it appears as though there will be a mass increase in positive cases and deaths. Social distancing has worked quite well for sometime, however, do we always know where it is safe and where it isn't?
+            <p/> The sad reality is that we don't, not unless we carry out this project.
+            Please help us decrease the spread of the virus and keeping yourself and others safe by donating to the charities bellow.
+            Additionally, we do have an optional survey that can help with research targetting Covid-19 hotzones and how to stay safe in this hard times.
+            <p/><button>Survey</button>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}

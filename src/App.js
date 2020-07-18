@@ -27,10 +27,12 @@ class App extends React.Component {
       <Router>
         <React.Fragment>
           <CssBaseline />
-          <Nav name="APPH"/>
+          <Nav name="Contact Tracing America"/>
           <Route exact path="/" render={props =>(
           <Main />
           )}/>
+          <header>
+          </header>
           <Route path="/info" render={props =>(
           <React.Fragment>
           <SignIn stateVal= {this.state.stateVal} handleState={this.handleState}/>
