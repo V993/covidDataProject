@@ -64,6 +64,11 @@ function Show(props) {
             Optional
           </Paper>
         </Grid>
+        {/* Grid With Information on Charities*/}
+        <Grid item xs={12}>
+          <Paper className={classes.mpaper}>
+          </Paper>
+        </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper className={classes.paper}>

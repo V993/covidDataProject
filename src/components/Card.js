@@ -41,12 +41,7 @@ export default function ImgMediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
+        <Button size="small" color="primary" onclick="window.open(url,'_blank')"> Learn More</Button>
       </CardActions>
     </Card>
   );
