@@ -80,25 +80,25 @@ function Main(props) {
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.spaper}>
+          <Paper>
             <Card/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.spaper}>
+          <Paper>
             <Card/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.spaper}>
+          <Paper>
             <Card/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
-          <Paper className={classes.spaper}>
+          <Paper>
             <Card/>
           </Paper>
         </Grid>
