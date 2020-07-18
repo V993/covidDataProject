@@ -50,7 +50,6 @@ function Show(props) {
           style={{ backgroundImage: 'url(https://source.unsplash.com/user/erondu/1600x900)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'}}>
-            Large space
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}

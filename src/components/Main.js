@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
 import Card from './Card';
-//import images from './images'
+import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -59,12 +59,13 @@ function Main(props) {
         {/* Grid With Text Cards or Paper */}
         <Grid item xs={12}>
           <Paper>
-            <h>What is contact tracing?</h>
-            <p/>Contact tracing is a study carried out to study patterns and locations of events in order to track down the source. With the current Covid-19 situation, it appears as though there will be a mass increase in positive cases and deaths. Social distancing has worked quite well for sometime, however, do we always know where it is safe and where it isn't?
+            <Typography><h1>What is contact tracing?</h1>
+            <p>Contact tracing is a study carried out to study patterns and locations of events in order to track down the source. With the current Covid-19 situation, it appears as though there will be a mass increase in positive cases and deaths. Social distancing has worked quite well for sometime, however, do we always know where it is safe and where it isn't?</p>
             <p/> The sad reality is that we don't, not unless we carry out this project.
             Please help us decrease the spread of the virus and keeping yourself and others safe by donating to the charities bellow.
             Additionally, we do have an optional survey that can help with research targetting Covid-19 hotzones and how to stay safe in this hard times.
             <p/><button>Survey</button>
+            </Typography>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
@@ -82,7 +83,7 @@ function Main(props) {
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
-            <Card charityName = "Alight" charityImg = "/" url = "/" description = "Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff."/>
+            <Card charityName = "Alight" charityImg = "./images/alight.jpg" url = "/" description = "Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff."/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
