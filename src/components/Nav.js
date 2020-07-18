@@ -6,6 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import HomeIcon from '@material-ui/icons/Home';
+import SearchIcon from '@material-ui/icons/Search';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,8 +34,12 @@ function Nav(props){
             <Typography variant="h6" className={classes.title}>
               {props.name}
             </Typography>
-            <Button color="inherit">Login</Button>
-            <Button color="inherit">Sign Up</Button>
+            <Button color="inherit" href="/">
+              <HomeIcon fontSize="small" />Home
+            </Button>
+            <Button color="inherit"href="/info/rev">
+              <SearchIcon fontSize="small" />Search
+            </Button>
           </Toolbar>
         </AppBar>
         </div>
