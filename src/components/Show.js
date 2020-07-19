@@ -4,9 +4,9 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
-import Card from './Card';
-import Typography from '@material-ui/core/Typography';
 //import Link from '@material-ui/core/Link';
+import Typography from '@material-ui/core/Typography';
+import Card from './Card';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -66,10 +66,24 @@ function Show(props) {
             Optional
           </Paper>
         </Grid>
+        {/* Grid With Info */}
+        <Grid item xs={12}>
+          <Paper>
+            <Typography>
+              <h1>Want to have an impact?</h1>
+              Please help us decrease the spread of the virus and keeping yourself and others safe by donating to the charities bellow.
+              Additionally, we do have an optional survey that can help with research targetting Covid-19 hotzones and how to stay safe in this hard times.
+              <p/>
+              <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfUJPS7AULEEIGVdYLSQ1oPwPbUFYkT-KswRTIvDx0CH7W4eQ/viewform">
+                Survey
+              </Button>
+            </Typography>
+          </Paper>
+        </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
-            <Card charityName = "Alight" charityImg = "/images/alight" url = "https://wearealight.org/" description = "Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff."/>
+            <Card charityName = "Alight" charityImg = "/" url = "https://wearealight.org/" description = "Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff."/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
