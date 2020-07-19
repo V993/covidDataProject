@@ -21,10 +21,10 @@ export default function ImgMediaCard(props) {
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
-          component="img"
+          component= {props.charityImg}
           alt={props.charityName}
           height="140"
-          image={props.charityImg}
+          image= {props.charityImg}
           title={props.charityName}
         />
         <CardContent>

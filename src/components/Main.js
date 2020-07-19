@@ -92,7 +92,7 @@ function Main(props) {
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
-            <Card charityName = "Alight" charityImg = "/" url = "https://wearealight.org/" description = "Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff."/>
+            <Card charityName = "Alight" charityImg = "/images/alight" url = "https://wearealight.org/" description = "Alight is supporting local operations in nine countries where they have had an ongoing, long-term presence. Efforts include increasing access to WASH (water, sanitation and hygiene) facilities in refugee settlements and supplying protective equipment for medical staff."/>
           </Paper>
         </Grid>
         {/* Grid With Cards or Paper */}
