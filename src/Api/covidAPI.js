@@ -47,17 +47,22 @@ async function request(address, endpoint, key = '') {
     function json(response) {
         return response.json();
     }
+    
+    const DATA = [];
 
     fetch(fullRequest)
         .then(status)
         .then(json)
-        .then(function(data) {
+        .then(data => {
             console.log('request succeeded. JSON response log:', data);
+            DATA.push(data);
             return data;
         })
         .catch(function(error) {
             console.log('request failed. error response log:', error);
         });
+
+    return DATA;
 }
 
 //test values
@@ -66,6 +71,8 @@ async function request(address, endpoint, key = '') {
 const endpoint = 'v1/us/daily.json' // for testing
 // alert("running with endpoint '"+endpoint+"'");
 
-data = JSON.stringify(request("https://covidtracking.com/api", endpoint, ''));
+data = request("https://covidtracking.com/api", endpoint, '');
 
 console.log(data);
+
+export default DATA;
