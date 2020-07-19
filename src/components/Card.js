@@ -21,23 +21,32 @@ export default function ImgMediaCard(props) {
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
-          component= {props.charityImg}
+          component="img"
           alt={props.charityName}
           height="140"
-          image= {props.charityImg}
+          image={props.charityImg}
           title={props.charityName}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
+            <div>
               {props.charityName}
+            </div>
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
+            <div>
               {props.description}
+            </div>
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" href={props.url}> Learn More</Button>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
       </CardActions>
     </Card>
   );
