@@ -29,19 +29,15 @@ export default function ImgMediaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            <div>
               {props.charityName}
-            </div>
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            <div>
               {props.description}
-            </div>
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" onclick="window.open(url,'_blank')"> Learn More</Button>
+        <Button size="small" color="primary" href={props.url}> Learn More</Button>
       </CardActions>
     </Card>
   );
