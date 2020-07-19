@@ -83,7 +83,7 @@ function Main(props) {
               Please help us decrease the spread of the virus and keeping yourself and others safe by donating to the charities bellow.
               Additionally, we do have an optional survey that can help with research targetting Covid-19 hotzones and how to stay safe in this hard times.
               <p/>
-              <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfUJPS7AULEEIGVdYLSQ1oPwPbUFYkT-KswRTIvDx0CH7W4eQ/viewform">
+              <Button color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfUJPS7AULEEIGVdYLSQ1oPwPbUFYkT-KswRTIvDx0CH7W4eQ/viewform">
                 Survey
               </Button>
             </Typography>
