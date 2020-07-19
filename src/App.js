@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 import Nav from './components/Nav';
 import Main from './components/Main';
+import DataT from './components/DataT';
 import SignIn from './components/Sign'
 import Show from './components/Show'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Link from '@material-ui/core/Link';
 //import Container from '@material-ui/core/Container';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -16,8 +18,8 @@ class App extends React.Component {
 
     this.handleState = this.handleState.bind(this);
   }
-  handleState(state){
-    this.setState({ stateVal: state }, () => {
+  handleState(state, stateNum){
+    this.setState({ stateVal: state}, () => {
     console.log(this.state.stateVal, 'state is set');
   });
   }
@@ -41,6 +43,11 @@ class App extends React.Component {
           <Route path="/info/rev" render={props =>(
           <React.Fragment>
           <Show stateVal= {this.state.stateVal}/>
+          </React.Fragment>
+          )}/>
+          <Route path="/data" render={props =>(
+          <React.Fragment>
+          <DataT />
           </React.Fragment>
           )}/>
       </React.Fragment>

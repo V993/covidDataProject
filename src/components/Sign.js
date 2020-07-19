@@ -47,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 let stateIn = '';
+
 export default function SignIn(props) {
   const classes = useStyles();
   function onSubmit(e){
@@ -68,7 +69,7 @@ export default function SignIn(props) {
           <AddLocationRoundedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          State: {stateIn}
+          State: {stateIn} {props.stateNumber}
         </Typography>
         <form className={classes.form} noValidate onSubmit={onSubmit}>
           <TextField

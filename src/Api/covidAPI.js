@@ -2,12 +2,14 @@
  * @author  : Leonardo Matone
  * @file    : requestsAPI.js
  * @purpose : to make a request to a given API with specific parameters
- * @date    : 07/17/20 
+ * @date    : 07/17/20
 
-    // basic request for specific endpoint: 
+    // basic request for specific endpoint:
     fetch('https://covidtracking.com/api/v1/us/daily.json')
         .then(response => response.json())
-        .then(data => console.log(data));``
+        .then((data) => {
+          console.log(data)
+        });``
 
     root address : https://covidtracking.com/api
 
@@ -59,6 +61,7 @@ async function request(address, endpoint, key = '') {
             console.log('request failed. error response log:', error);
         });
 }
+
 
 //test values
 
