@@ -66,20 +66,6 @@ function Show(props) {
             Optional
           </Paper>
         </Grid>
-        {/* Grid With Info */}
-        <Grid item xs={12}>
-          <Paper>
-            <Typography>
-              <h1>Want to have an impact?</h1>
-              Please help us decrease the spread of the virus and keeping yourself and others safe by donating to the charities bellow.
-              Additionally, we do have an optional survey that can help with research targetting Covid-19 hotzones and how to stay safe in this hard times.
-              <p/>
-              <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfUJPS7AULEEIGVdYLSQ1oPwPbUFYkT-KswRTIvDx0CH7W4eQ/viewform">
-                Survey
-              </Button>
-            </Typography>
-          </Paper>
-        </Grid>
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
           <Paper>
