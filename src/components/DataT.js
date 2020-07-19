@@ -49,88 +49,84 @@ function DataT(props) {
         {/* Main */}
         <Grid item xs={12}>
           <Paper className={classes.lpaper}
-          style={{ backgroundImage: 'url(https://source.unsplash.com/user/erondu/1600x900)',
+          style={{
+            backgroundImage: 'url(https://images.unsplash.com/photo-1584291527905-f930791fb1ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'}}>
-            Large space
           </Paper>
         </Grid>
-        {/* Grid With Cards or Paper */}
-        <Grid item xs={6}>
-          <Paper className={classes.paper}>
-            Results for {props.stateVal}
-          </Paper>
-        </Grid>
-        {/* Grid With Cards or Paper */}
-        <Grid item xs={6}>
-          <Paper className={classes.paper}>
-            Optional
-          </Paper>
-        </Grid>
+
+
+
+
+
+
+
+
         {/* Grid With Cards or Paper */}
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"132395"}
+            positive={3692061}
+            negative={41273443}
+            pending={3032}
+            days={"2020/07/18"}/>
         </Grid>
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"131523"}
+            positive={3626881}
+            negative={40576852}
+            pending={3002}
+            days={"2020/07/17"}/>
         </Grid>
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"130572"}
+            positive={3549648}
+            negative={39802297}
+            pending={2929}
+            days={"2020/07/16"}/>
         </Grid>
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"129595"}
+            positive={3478419}
+            negative={39042608}
+            pending={2947}
+            days={"2020/07/15"}/>
         </Grid>
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"128740"}
+            positive={3413313}
+            negative={38351244}
+            pending={960}
+            days={"2020/07/14"}/>
         </Grid>
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"128004"}
+            positive={"3350434"}
+            negative={"37653841"}
+            pending={"2610"}
+            days={"2020/07/13"}/>
         </Grid>
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"127677"}
+            positive={3291969}
+            negative={36990207}
+            pending={2639}
+            days={"2020/07/12"}/>
         </Grid>
         <Grid item xs={3}>
             <SimpleCard
-            deaths={"placeholder"}
-            positive={1234}
-            negative={222}
-            pending={333}
-            hospitalizedCurrently={222}/>
+            deaths={"127201"}
+            positive={3230991}
+            negative={36323867}
+            pending={2618}
+            days={"2020/07/11"}/>
         </Grid>
         {/* Footer */}
         <Grid item xs={12}>

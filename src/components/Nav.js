@@ -5,7 +5,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import AssignmentIcon from '@material-ui/icons/Assignment';
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
 
@@ -29,7 +30,7 @@ function Nav(props){
         <AppBar position="static">
           <Toolbar>
             <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-              <MenuIcon />
+              <LocalHospitalIcon />
             </IconButton>
             <Typography variant="h6" className={classes.title}>
               {props.name}
@@ -37,8 +38,11 @@ function Nav(props){
             <Button color="inherit" href="/">
               <HomeIcon fontSize="small" />Home
             </Button>
-            <Button color="inherit"href="/info/rev">
-              <SearchIcon fontSize="small" />Search
+            <Button color="inherit"href="/Data">
+              <SearchIcon fontSize="small" />Data
+            </Button>
+            <Button color="inherit"href="https://docs.google.com/forms/d/e/1FAIpQLSfUJPS7AULEEIGVdYLSQ1oPwPbUFYkT-KswRTIvDx0CH7W4eQ/viewform">
+              <AssignmentIcon fontSize="small" />Survey
             </Button>
           </Toolbar>
         </AppBar>

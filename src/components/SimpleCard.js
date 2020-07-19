@@ -31,22 +31,22 @@ export default function SimpleCard(props) {
     <Card className={classes.root}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-          {props.day}
+          Day: {props.days}
         </Typography>
         <Typography variant="h5" component="h2">
-          {props.positive}
+          Postive cases: {props.positive}
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          {props.negative}
+          Negative cases: {props.negative}
         </Typography>
         <Typography variant="body2" component="p">
-          {props.pending}
+          Pending cases: {props.pending}
           <br />
-          {props.death}
+          Numeber of deaths: {props.death}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small" href="https://covidtracking.com">Learn More</Button>
       </CardActions>
     </Card>
   );
