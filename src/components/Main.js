@@ -48,7 +48,7 @@ function Main(props) {
         {/* Main */}
         <Grid item xs={12}>
           <Paper className={classes.lpaper}
-          style={{ backgroundImage: 'url(https://www.wlrn.org/sites/wlrn/files/styles/x_large/public/202005/contact_tracing__1_.png)',
+          style={{ backgroundImage: 'url(https://images.theconversation.com/files/372928/original/file-20201203-13-12sn39w.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'}}>
           </Paper>

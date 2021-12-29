@@ -33,8 +33,6 @@ class App extends React.Component {
           <Route exact path="/" render={props =>(
           <Main />
           )}/>
-          <header>
-          </header>
           <Route path="/info" render={props =>(
           <React.Fragment>
           <SignIn stateVal= {this.state.stateVal} handleState={this.handleState}/>
