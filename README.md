@@ -1,5 +1,7 @@
 # covidDataProject
 
+The project is currently published at: https://v993.github.io/covidDataProject/
+
 Covid Data Project is an intuitive, easy-to-use web application dedicated 
 to providing relevant information on the COVID-19 pandemic. 
 
